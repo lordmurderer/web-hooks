@@ -22,3 +22,13 @@ For every repo there is a log file located in the __logs__ folder indicating all
 
 
 _More WebHooks to be added soon ..._
+
+Estos son los pasos que necesitas realizar:
+
+Clonar el repositorio con los WebHooks
+1
+git clone https://github.com/arielcr/web-hooks.git
+Subir la carpeta web-hooks a la raiz de tu servidor web.
+Te vas a tu repositorio en tu cuenta de GitHub, a Settings -> Service Hooks -> WebHooks URLs
+Una vez ahi copias la dirección con la ruta al archivo update-server.php (ej: http://tusitio.com/web-hooks/update-server.php)
+Presionas Update Settings
